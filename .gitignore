@@ -1,0 +1,13 @@
+# Build artifacts and release binaries
+# These do NOT belong in Git. Use GitHub Releases to distribute installers.
+releases/
+
+# Common OS garbage
+.DS_Store
+Thumbs.db
+
+# Common editor noise
+.vscode/
+.idea/
+*.swp
+*.swo

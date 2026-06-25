@@ -1,0 +1,25 @@
+{
+  "name": "vulnsweep",
+  "version": "1.3.6",
+  "description": "VulnSweep CLI - npm vulnerability scanner",
+  "bin": {
+    "vulnsweep": "./vulnsweep.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "files": [
+    "vulnsweep.js",
+    "vulnsweep.cmd",
+    "vulnsweep"
+  ],
+  "dependencies": {
+    "systeminformation": "^5.31.6",
+    "secure-ls": "^2.0.0"
+  }
+}
